@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -27,9 +28,37 @@
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  padding: 0%;
+  padding: 1px;
   font-family: "Italianno", cursive;
   font-size: 2em;
+}
+.contact {
+  border: 3px solid olive;
+  border-radius: 5px;
+  width: 50%;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+  font-family: "Italianno", cursive;
+  font-size: 2em;
+  margin-top: 3vh;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  margin-top: 5%;
+}
+
+#map-box {
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+#address-box {
+  font-family: "Scheherazade New", serif;
+  font-size: 0.7em;
 }
 
 .home-container {
@@ -56,7 +85,23 @@
   display: grid;
   grid-template-columns: auto auto;
 }
-
+#homeBut:hover {
+  background-color: olive;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#menuButton:hover {
+  background-color: olive;
+  color: white;
+  cursor: pointer;
+}
+#contactButton:hover {
+  background-color: olive;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .burger-types {
   border: 1px olive solid;
   border-radius: 5px;
@@ -64,4 +109,29 @@
   height: 25vh;
   text-align: center;
   font-size: 2em;
+}
+.menuImages {
+  display: block;
+  max-width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#map-pic {
+  display: block;
+  max-width: 100%;
+  height: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.decor-div {
+  /*border: 1px red solid;*/
+  width: 40%;
+  margin: 0 auto;
+}
+.page-decor {
+  width: 100%;
+
+  margin: 0 auto;
 }
